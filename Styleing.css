@@ -6,26 +6,49 @@
 
 
 .descriptionTitles{
+
+	/* Width and Height */
+	width: 50%;
+	height: auto;
+
+	/* Position */
+	position: relative;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 22%;
+
+	/* Padding and Margin */
+/*	padding: 50% 50% 50% 50%;*/
+  margin: 0% 0% 5% 0%;
+
+	/* Other */
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Cormorant Unicase', serif;
-	list-style-type: none;
+	z-index: 101;
 }
 
 .descriptionBoxSmall{
+	/* Width and Height */
+	width: 50%;
+	height: auto;
+
+	/* Position */
 	position: relative;
-	
-	/* Depth (Z) */
-	z-index: 101;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 25%;
+	/* Padding and Margin */
+/*	padding: 50% 50% 50% 50%;*/
+  margin: 0% 0% 5% 0%;
 
-	/* Sizing */
+	/* Other */
 	border: 2px solid black;
-	margin: 25px 50px 25px;
 	background-color: rgba(0,0,100,50);
-	padding: 50px 50px;
-
-	/*Content Alignemnt*/
 	text-align: center;
+	z-index: 101;
 }
 
 #unbulletPointify{
@@ -57,8 +80,8 @@ body{
 .nav{
 	top:30%;
 	list-style-type: none;
-	width:200px;
-	height: 500px;
+	width:200%;
+	height: 500%;
 	position: fixed;
 	overflow: auto;
 	z-index: 100;
