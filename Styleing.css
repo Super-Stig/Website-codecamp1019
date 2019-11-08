@@ -6,8 +6,9 @@
 
 
 
-
-/* STRIP 1 SECTION 3 */
+/* -------------------------------------;--- */
+/* STRIP 1 SECTION 3 UNDERWORLD DESCRIPTION */
+/* ---------------------------------------- */
 
 #descriptionTitleFor_Strip1_Underworld{
 
@@ -55,6 +56,56 @@
 	z-index: 101;
 }
 
+
+/* -------------------------- */
+/* STRIP 2 SECTION 3 CRAFTING */
+/* -------------------------- */
+
+#descriptionTitleFor_Strip2_Crafting{
+
+	/* Width and Height */
+	max-width: 50%;
+	max-height: auto;
+
+	/* Position */
+	position: relative;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 22%;
+
+	/* Padding and Margin */
+/*	padding: 50% 50% 50% 50%;*/
+  margin: 0% 0% 5% 0%;
+
+	/* Other */
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Cormorant Unicase', serif;
+	z-index: 101;
+}
+
+#smallTextBoxFor_Strip2_Crafting{
+	/* Width and Height */
+	max-width: 75%;
+	max-height: auto;
+
+	/* Position */
+	position: relative;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 12.5%;
+	/* Padding and Margin */
+/*	padding: 50% 50% 50% 50%;*/
+  margin: 0% 0% 5% 0%;
+
+	/* Other */
+	border: 2px solid black;
+	background-color: rgba(0,0,100,50);
+	text-align: center;
+	z-index: 101;
+}
 
 
 /* MISC */
