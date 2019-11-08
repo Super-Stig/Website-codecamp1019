@@ -9,6 +9,32 @@ body{
     overflow-y: scroll;
 }
 
+/* Navication Bar */
+
+ul{
+	list-style-type: none;
+	width:200px;
+	height: 200px;
+	position: fixed;
+	overflow: auto;
+	z-index: 100;
+
+}
+
+
+
+li a {
+	display: block;
+	text-decoration-color: white;
+	
+}
+
+li a:hover {
+  background-color: red;
+  color: white;
+}
+
+
 /* UNIQUE ID's */
 #unbulletPointify
 {
@@ -16,18 +42,8 @@ body{
 }
 
 /* CLASS GROUPS */
-
-.descriptionTitles
-{
-    margin-left: 0;
-	text-align: left;
-	color: #ffffff;
-	font-family: 'Cormorant Unicase', serif;
-	list-style-type: none;
-}
-
 .home{
-
+	width:100%;
 	float:right;
 }
 
@@ -58,3 +74,13 @@ body{
 	 bottom: 0%;
 	 top: 0%;
 }
+
+.descriptionTitles
+{
+    margin-left: 0;
+	text-align: left;
+	color: #ffffff;
+	font-family: 'Cormorant Unicase', serif;
+	list-style-type: none;
+}
+
