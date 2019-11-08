@@ -170,7 +170,7 @@ body{
 .nav{
 	top:30%;
 	list-style-type: none;
-	width:4%;
+	width:10%;
 	height: 15%;
 	position: fixed;
 	overflow: auto;
