@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Mythic Phoenix (Cameron's Portfolio)</title>
+    
+    <meta charset="utf-8">
+    
+    <meta name="description" content="UI-UX design Portfolio">
+
+    <meta name="keywords" content="graphic, design, freelance, photography, UI, UX, Designer, programer.">
+
+    <meta name= "viewpoint" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300&display=swap" rel="stylesheet">
+    
+    
+     <!-- this is the begginging ot the body -->
+
+
+
+<body id="body">
+    <div id="sidepanal" class="sidepanal">
+        
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                <h2>Email</h2>
+                <a id="mail" href="mailto:camtheman33@gmail.com">
+                    <p>camtheman33@gmail.com</p>
+                </a>
+                <h2>Phone Number</h2>
+                <p>1-435-680-8880</p>
+                <p style="margin-top: -23px;">Text or call</p>
+        
+    </div>
+    
+    <!--This is the nav bar. -->
+    <div>
+        <nav class="nav" style="background-color:blue">
+            <ul>
+                 <li>
+                    <a id="logo">
+                         <img class="smallLogo" src="img/phoenix logo.png" alt="missing phoenix">
+                    </a>
+                </li>
+                <li>
+                    <a id="home" href="#test" onClick="home(); resumeScrole();">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a id="portfolio" href="#test" onClick="start(); resumeScrole();">
+                        PORTFOLIO
+                    </a>
+            
+                </li> 
+                <li>
+                    <a id="contact" href="#test" onClick="openNav();">
+                        CONTACT
+                    </a>
+                </li>
+                <li>
+                    <a id="aboutme" href="#test" onClick="about();">
+                        ABOUT ME
+                    </a>
+        <div id="loading" class="loading" style="display:none">
+        
+            <object>
+                <embed class="loading" src="JavaScript/loading%20animation%20path.svg">
+            </object>
+            
+        </div>
+                </li> 
+            </ul>
+        </nav>
+    </div>
+
+   <!-- The main dive for the Page. -->  
+
+    <div id='#home' style="background-color: red">
+    
+    <p> this is a test print</p>
+
+    </div>
+ 
+     <!-- the gallory -->
+
+
+    <div id="#gallory" class="gallory" style="background-color: pink">
+
+    	<p> this is a test print </p>
+       
+    </div>
+    
+
+     <!-- this is the about me portion of the website page 8000px away to the left. aka resume -->
+    
+    
+    <div id="#aboutme" class="aboutMe" style="background-color:purple">
+
+
+    	<p> this is a test print</p>
+        
+      
+    </div>
+    
+    
+    <div class="DumbyDiv" style="background-color: brown; position: absolute; left:10000px;">
+        <p>you shouldn't be here.</p>
+    </div>
+    
+  <!-- all scripts below this -->
+  
+    
+    
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+        <script>
+            particlesJS.load('particles-js', 'particles.json', function(){
+              console.log('particles.json loaded...');
+            });
+        </script>
+    
+
+    
+    <script src="https://www.kodhus.com/moveit.0.4.js"></script>
+    
+    <script>
+        
+        function hide(){
+            document.getElementById("loading").style.display = "none";
+        }
+        
+        
+        
+        function loading(){
+           // var container = document.getElementById("loading");
+          //  var content = container.innerHTML;
+          //  container.innerHTML=content;
+            
+            document.getElementById("loading").style.display = "block";
+        
+            setTimeout(hide,1000);
+            console.log("hello its working"); 
+        }
+        
+       function start(){
+        document.getElementById('#portfolio').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        loading()
+       }
+        function home(){
+        document.getElementById('#home').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        loading()
+       }
+        function contact(){
+        document.getElementById('#contact').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        loading()
+       }
+        function about(){
+        document.getElementById('#aboutme').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        loading()
+       }
+        
+        function openNav(){
+            document.getElementById("sidepanal").style.width="1660px";
+        }
+        function closeNav(){
+            document.getElementById("sidepanal").style.width="0";
+        }
+        
+        
+        function noScrole(){
+            document.getElementById("body").style.overflowY="hidden";
+        }
+        
+        function resumeScrole(){
+            document.getElementById("body").style.overflowY="scroll";
+        }
+        
+       function oneOp(){
+            document.getElementById("pannalOne").style.opacity="1";
+        }
+        
+        function oneCl(){
+            document.getElementById("pannalOne").style.opacity="0";
+        }
+        
+        function twoOp(){
+            document.getElementById("pannalTwo").style.height="700px";
+            document.getElementById("pannalTwo").style.opacity="1";
+        }
+        
+        function twoCl(){
+            document.getElementById("pannalTwo").style.height="0px";
+            document.getElementById("pannalTwo").style.opacity="0";
+        }
+        function threeOp(){
+            document.getElementById("pannalThree").style.height="700px";
+            document.getElementById("pannalThree").style.opacity="1";
+        }
+        
+        function threeCl(){
+            document.getElementById("pannalThree").style.height="0px";
+            document.getElementById("pannalThree").style.opacity="0";
+        }
+        function fourOp(){
+            document.getElementById("pannalFour").style.height="700px";
+            document.getElementById("pannalFour").style.opacity="1";
+        }
+        
+        function fourCl(){
+            document.getElementById("pannalFour").style.height="0px";
+            document.getElementById("pannalFour").style.opacity="0";
+        }
+        function fiveOp(){
+            document.getElementById("pannalFive").style.height="700px";
+            document.getElementById("pannalFive").style.opacity="1";
+        }
+        
+        function fiveCl(){
+            document.getElementById("pannalFive").style.height="0px";
+            document.getElementById("pannalFive").style.opacity="0";
+        }
+        function sixOp(){
+            document.getElementById("pannalSix").style.height="700px";
+            document.getElementById("pannalSix").style.opacity="1";
+        }
+        
+        function sixCl(){
+            document.getElementById("pannalSix").style.height="0px";
+            document.getElementById("pannalSix").style.opacity="0";
+        }
+    </script>
+</body> 
+    
+<footer>   
+    <p class="end">©themythicphoenix.com 2019 all rights reserved</p>
+    <p class="end">this website was created by Cameron Taylor</p>
+</footer>
+</html>
