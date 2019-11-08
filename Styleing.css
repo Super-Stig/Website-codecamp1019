@@ -10,7 +10,7 @@ body{
 }
 
 /* UNIQUE ID's */
-#unbulletPointify{
+
 /* Navication Bar */
 
 .nav{
@@ -30,8 +30,6 @@ body{
 	font-family: 'Cormorant Unicase', serif;
 	list-style-type: none;
 }
-
-.descriptionBoxSmall{
 
 .nav li a {
 	display: block;
