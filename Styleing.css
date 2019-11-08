@@ -83,6 +83,8 @@ body{
 
 /* UNIQUE ID's */
 
+
+
 /* Navication Bar */
 
 .nav{
@@ -114,10 +116,55 @@ body{
   color: white;
 }
 
+
+
+/* Main Divs */
+
+
 .home{
 	width:100%;
 	float:right;
 }
+
+/* Stuff inside the home div */
+
+	.center {
+		margin-top:18%;
+		margin-right: auto;
+		margin-left: auto;
+	  	width: 50%;
+	 	border: 3px solid green;
+	 	padding: 10px;
+	}
+
+	#tital{
+		margin-left: 24%;
+	}
+
+	.Obliscs {
+		margin-left: 12%;
+	}
+
+	#Obliscs1 {
+		position: absolute;
+		left:14%;
+		
+	}
+
+	#Obliscs2 {
+		position: absolute;
+		left:80%;
+		top:14%;
+	}
+
+	#Obliscs3 {
+		margin-left: 50%;
+		margin-right: 50%;
+	}
+
+
+
+
 
 .Aboutgame{
 
