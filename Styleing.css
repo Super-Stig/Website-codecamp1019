@@ -41,7 +41,27 @@ li a:hover {
 	list-style-type: none;
 }
 
+<<<<<<< HEAD
 /* CLASS GROUPS */
+=======
+.descriptionBoxSmall
+{
+	/*LAYOUT*/
+
+	/* Position (X, Y)*/
+	position: absolute;
+	
+	/* Depth (Z) */
+	z-index: 100;
+
+	/* Sizing */
+	border: 1px solid black;
+	margin: 25px 50px 0px;
+	background-color: lightblue;
+	padding: 50px 50px;
+}
+
+>>>>>>> d53cf585f534af43a559668615bc14c30f795c97
 .home{
 	width:100%;
 	float:right;
@@ -73,6 +93,7 @@ li a:hover {
 	 left:400%;
 	 bottom: 0%;
 	 top: 0%;
+<<<<<<< HEAD
 }
 
 .descriptionTitles
@@ -84,3 +105,6 @@ li a:hover {
 	list-style-type: none;
 }
 
+=======
+}
+>>>>>>> d53cf585f534af43a559668615bc14c30f795c97
