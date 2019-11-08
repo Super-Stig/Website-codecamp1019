@@ -1,3 +1,44 @@
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+							/*TAYLORS ZONE START*/
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+
+
+.descriptionTitles{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Cormorant Unicase', serif;
+	list-style-type: none;
+}
+
+.descriptionBoxSmall{
+	position: relative;
+	
+	/* Depth (Z) */
+	z-index: 101;
+
+	/* Sizing */
+	border: 2px solid black;
+	margin: 25px 50px 25px;
+	background-color: rgba(0,0,100,50);
+	padding: 50px 50px;
+
+	/*Content Alignemnt*/
+	text-align: center;
+}
+
+#unbulletPointify{
+	list-style-type: none;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+							/*TAYLORS ZONE END*/
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+
 body{
 	background-color: #31112d;
 	margin: 0 auto;
@@ -10,7 +51,7 @@ body{
 }
 
 /* UNIQUE ID's */
-#unbulletPointify{
+
 /* Navication Bar */
 
 .nav{
@@ -22,21 +63,6 @@ body{
 	overflow: auto;
 	z-index: 100;
 
-}
-
-.descriptionTitles{
-	text-align: center;
-	color: #ffffff;
-	font-family: 'Cormorant Unicase', serif;
-	list-style-type: none;
-}
-
-.descriptionBoxSmall{
-
-.nav li a {
-	display: block;
-	text-decoration-color: white;
-	
 }
 
 .nav li a:hover {
