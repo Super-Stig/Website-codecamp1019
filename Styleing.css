@@ -5,11 +5,15 @@
 /*--------------------------------------------------------------------------------*/
 
 
-.descriptionTitles{
+
+
+/* STRIP 1 SECTION 3 */
+
+#descriptionTitleFor_Strip1_Underworld{
 
 	/* Width and Height */
-	width: 50%;
-	height: auto;
+	max-width: 50%;
+	max-height: auto;
 
 	/* Position */
 	position: relative;
@@ -29,17 +33,17 @@
 	z-index: 101;
 }
 
-.descriptionBoxSmall{
+#smallTextBoxFor_Strip1_Underworld{
 	/* Width and Height */
-	width: 50%;
-	height: auto;
+	max-width: 75%;
+	max-height: auto;
 
 	/* Position */
 	position: relative;
 	top: 0%;
 	right: 0%;
 	bottom: 0%;
-	left: 25%;
+	left: 12.5%;
 	/* Padding and Margin */
 /*	padding: 50% 50% 50% 50%;*/
   margin: 0% 0% 5% 0%;
@@ -50,6 +54,10 @@
 	text-align: center;
 	z-index: 101;
 }
+
+
+
+/* MISC */
 
 #unbulletPointify{
 	list-style-type: none;
