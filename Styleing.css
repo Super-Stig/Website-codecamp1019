@@ -41,9 +41,9 @@ li a:hover {
 	list-style-type: none;
 }
 
-<<<<<<< HEAD
+
 /* CLASS GROUPS */
-=======
+
 .descriptionBoxSmall
 {
 	/*LAYOUT*/
@@ -61,7 +61,7 @@ li a:hover {
 	padding: 50px 50px;
 }
 
->>>>>>> d53cf585f534af43a559668615bc14c30f795c97
+
 .home{
 	width:100%;
 	float:right;
@@ -93,7 +93,7 @@ li a:hover {
 	 left:400%;
 	 bottom: 0%;
 	 top: 0%;
-<<<<<<< HEAD
+
 }
 
 .descriptionTitles
@@ -104,7 +104,3 @@ li a:hover {
 	font-family: 'Cormorant Unicase', serif;
 	list-style-type: none;
 }
-
-=======
-}
->>>>>>> d53cf585f534af43a559668615bc14c30f795c97
