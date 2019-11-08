@@ -8,3 +8,20 @@ body{
     overflow-x: scroll;
     overflow-y: scroll;
 }
+
+/* UNIQUE ID's */
+#unbulletPointify
+{
+	list-style-type: none;
+}
+
+/* CLASS GROUPS */
+
+.descriptionTitles
+{
+    margin-left: 0;
+	text-align: left;
+	color: #ffffff;
+	font-family: 'Cormorant Unicase', serif;
+	list-style-type: none;
+}
