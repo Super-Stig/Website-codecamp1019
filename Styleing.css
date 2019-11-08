@@ -28,7 +28,19 @@ body{
 
 .descriptionBoxSmall
 {
+	/*LAYOUT*/
+
+	/* Position (X, Y)*/
+	position: absolute;
 	
+	/* Depth (Z) */
+	z-index: 100;
+
+	/* Sizing */
+	border: 1px solid black;
+	margin: 25px 50px 0px;
+	background-color: lightblue;
+	padding: 50px 50px;
 }
 
 .home{
