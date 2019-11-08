@@ -88,8 +88,8 @@ body{
 .nav{
 	top:30%;
 	list-style-type: none;
-	width:200%;
-	height: 500%;
+	width:4%;
+	height: 15%;
 	position: fixed;
 	overflow: auto;
 	z-index: 100;
