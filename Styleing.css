@@ -58,48 +58,30 @@ body{
 	top:30%;
 	list-style-type: none;
 	width:200px;
-	height: 200px;
+	height: 500px;
 	position: fixed;
 	overflow: auto;
 	z-index: 100;
 
 }
 
+.descriptionTitles{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Cormorant Unicase', serif;
+	list-style-type: none;
+}
+
+.nav li a {
+	display: block;
+	text-decoration-color: white;
+	
+}
+
 .nav li a:hover {
   background-color: red;
   color: white;
 }
-
-
-/* UNIQUE ID's */
-#unbulletPointify
-{
-	list-style-type: none;
-}
-
-
-/* CLASS GROUPS */
-
-.descriptionBoxSmall
-{
-	/*LAYOUT*/
-
-	/* Position (X, Y)*/
-	position: relative;
-	
-	/* Depth (Z) */
-	z-index: 101;
-
-	/* Sizing */
-	border: 2px solid black;
-	margin: 25px 50px 25px;
-	background-color: rgba(0,0,100,50);
-	padding: 50px 50px;
-
-	/*Content Alignemnt*/
-	text-align: center;
-}
-
 
 .home{
 	width:100%;
@@ -111,6 +93,7 @@ body{
 	 left:100%;
 	 bottom: 0%;
 	 top: 0%;
+	 width: 100%;
 }
 
 .gallory{
@@ -118,6 +101,7 @@ body{
 	 left:200%;
 	 bottom: 0%;
 	 top: 0%;
+	 width: 100%;
 }
 
 .store{
@@ -125,6 +109,7 @@ body{
 	 left:300%;
 	 bottom: 0%;
 	 top: 0%;
+	 width: 100%;
 }
 
 .credits{
@@ -132,14 +117,6 @@ body{
 	 left:400%;
 	 bottom: 0%;
 	 top: 0%;
+	 width: 100%;
 
-}
-
-.descriptionTitles
-{
-    margin-left: 0;
-	text-align: left;
-	color: #ffffff;
-	font-family: 'Cormorant Unicase', serif;
-	list-style-type: none;
 }
