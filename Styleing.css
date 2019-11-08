@@ -1,0 +1,10 @@
+body{
+	background-color: #31112d;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	color: #ffffff;
+	font-family: 'Cormorant Unicase', serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
