@@ -21,16 +21,10 @@
 
 
 <body id="body">
-    <div id="sidepanal" class="sidepanal">
-        
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-                <p style="margin-top: -23px;">Text or call</p>
-        
-    </div>
-    
+
     <!--This is the nav bar. -->
     <div>
-        <nav class="nav" style="background-color:blue">
+        <nav class="nav">
             <ul>
                  <li>
                     <a id="logo">
@@ -86,7 +80,7 @@
 
 
 
-    <div id='#home' style="background-color: red; position: absolute;">
+    <div id='#home' class="home" style="background-color: red; position: absolute;">
     
 
     <!-- the titla and obliscs for the landing page. -->  
@@ -416,24 +410,24 @@
         }
         
        function start(){
-        document.getElementById('#Aboutgame').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        document.getElementById('#Aboutgame').scrollIntoView({ inline: 'start',  behavior: 'smooth' })
         loading()
        }
         function home(){
-        document.getElementById('#home').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        document.getElementById('#home').scrollIntoView({ inline: 'start',  behavior: 'smooth' })
         loading()
        }
         function gallory(){
-        document.getElementById('#Gallory').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        document.getElementById('#gallory').scrollIntoView({ inline: 'start',  behavior: 'smooth' })
         loading()
        }
         function store(){
-        document.getElementById('#store').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        document.getElementById('#store').scrollIntoView({ inline: 'start',  behavior: 'smooth' })
         loading()
        }
 
        function credits(){
-        document.getElementById('#credits').scrollIntoView({ inline: 'center',  behavior: 'smooth' })
+        document.getElementById('#credits').scrollIntoView({ inline: 'start',  behavior: 'smooth' })
         loading()
        }
         
