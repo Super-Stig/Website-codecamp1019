@@ -30,3 +30,36 @@ body{
 {
 	
 }
+
+.home{
+
+	float:right;
+}
+
+.Aboutgame{
+
+	 left:100%;
+	 bottom: 0%;
+	 top: 0%;
+}
+
+.gallory{
+
+	 left:200%;
+	 bottom: 0%;
+	 top: 0%;
+}
+
+.store{
+
+	 left:300%;
+	 bottom: 0%;
+	 top: 0%;
+}
+
+.credits{
+
+	 left:400%;
+	 bottom: 0%;
+	 top: 0%;
+}
