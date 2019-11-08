@@ -98,7 +98,7 @@
 	left: 12.5%;
 	/* Padding and Margin */
 /*	padding: 50% 50% 50% 50%;*/
-  margin: 0% 0% 5% 0%;
+    margin: 0% 0% 5% 0%;
 
 	/* Other */
 	border: 2px solid black;
@@ -106,6 +106,35 @@
 	text-align: center;
 	z-index: 101;
 }
+
+/* --------------------------------------------- */
+/* STRIP 3 SECTIONS 1, 2 and 3 GALLERY SLIDESHOW */
+/* --------------------------------------------- */
+
+.slideshowBoxes{
+
+	/* Width and Height */
+	max-width: 50%;
+	max-height: auto;
+
+	/* Position */
+	position: relative;
+	top: 0%;
+	right: 0%;
+	bottom: 0%;
+	left: 25%;
+
+	/* Padding and Margin */
+/*	padding: 50% 50% 50% 50%;*/
+    margin: 0% 0% 25% 0%;
+
+	/* Other */
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Cormorant Unicase', serif;
+	z-index: 101;
+}
+
 
 
 /* MISC */
