@@ -355,6 +355,13 @@ body{
 	  	width: 50%;
 	}
 
+	.linkl{
+		position:absolute;
+		display: block;
+		margin-bottom: 100%;
+		z-index: 1000;
+
+	}
 
 .Aboutgame{
 	 left:100%;
