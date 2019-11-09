@@ -343,7 +343,7 @@ body{
 		position: relative;
 		margin-left: 16%;
 		margin-top: 5%;
-		margin-bottom: 20%;
+		margin-bottom: 0%;
 		display: inline-block;
 
 	}
@@ -356,10 +356,12 @@ body{
 	}
 
 	.linkl{
-		position:absolute;
+		position:relative;
 		display: block;
-		margin-bottom: 100%;
-		z-index: 1000;
+		width:15%;
+		margin-left: 41.5%;
+		margin-bottom: 20%;
+		z-index: 1;
 
 	}
 
