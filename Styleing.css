@@ -122,12 +122,13 @@
 }*/
 
 .slideshow-container2 {
-  min-width: 80%;
-  max-width: 80%;
+  min-width: 60%;
+  max-width: 60%;
   min-height: 20%;
+  max-height: 20%;
   position: relative;
-  left: 17%;
-  margin: 5% 0% 0% -3.5%;
+  left: 23%;
+  margin: 0% 0% 0% -3.5%;
 }
 
 /*.slideshow-container3 {
@@ -379,7 +380,7 @@ body{
 
 
 
-.gallory{
+.gallary{
 
 	 left:100%;
 	 bottom: 0%;
