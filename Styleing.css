@@ -290,13 +290,15 @@ body{
 	top:30%;
 	list-style-type: none;
 	width:10%;
-	height: 15%;
+	height: 25%;
 	position: fixed;
 	overflow: auto;
 	z-index: 100;
 
 }
-
+.smallLogo{
+	max-width: 40%;
+}
 .descriptionTitles{
 	text-align: center;
 	color: #ffffff;
@@ -337,12 +339,20 @@ body{
 
 /* Stuff inside the home div */
 
+	.video{
+		position: relative;
+		margin-left: 16%;
+		margin-top: 5%;
+		margin-bottom: 20%;
+		display: inline-block;
+
+	}
+
 	.center {
-		margin-top:10%;
+		margin-top:6%;
 		margin-right: auto;
 		margin-left: auto;
 	  	width: 50%;
-	 	margin-bottom:30%;
 	}
 
 
