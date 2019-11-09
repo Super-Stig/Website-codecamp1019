@@ -398,32 +398,42 @@ body{
 .store h1{
 	text-align: center;
 	font-size: 50pt;
-	margin-top: 5%
+	margin-top: 1%
+}
+.store ul{
+	color:white;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 	.store #gameboxrenders{
 		width:68%; 
 		margin-top:10%;
 		margin-left:16%;
-		background-color: hotpink;
+		background-color: ;
 		height:10%;
 	}
+	
+	.gameRenders{
+		display: inline-block;
+		position: inherit;
+		width:23%;
+	}
+
 
 	.store #Steam{
 		width:10%; 
-		margin-top:5%;
+		margin-top:20%;
 		margin-left:45%;
-		background-color: hotpink;
+		background-color: none;
 	}
 
-	.store #systemRequierments{
-		margin-left: 10%;
-	}
+
 
 	.paragraph  {
 		margin-top: 5%;
 		margin-left: 1%;
-		background-color: hotpink;
+		background-color: ;
 		display: inline-block;
 		position: inherit;
 		max-width: 42.5%;
@@ -443,9 +453,9 @@ body{
 }
 
 .credits div ul{
-	background-color: hotpink;
 	display: inline-block;
 	position: inherit;
+	list-style-type: none;
 }
 
 
