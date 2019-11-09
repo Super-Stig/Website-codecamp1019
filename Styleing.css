@@ -303,9 +303,9 @@ body{
 
 .nav li a {
 	display: block;
-	text-decoration-color: white;
+	color:white;
 	text-decoration: none;
-	
+	text-align: center;
 }
 
 .nav li a:hover {
@@ -338,7 +338,7 @@ body{
 		position: relative;
 		margin-left: 16%;
 		margin-top: 5%;
-		margin-bottom: 20%;
+		margin-bottom: 0%;
 		display: inline-block;
 
 	}
@@ -350,6 +350,15 @@ body{
 	  	width: 50%;
 	}
 
+	.linkl{
+		position:relative;
+		display: block;
+		width:15%;
+		margin-left: 41.5%;
+		margin-bottom: 20%;
+		z-index: 1;
+
+	}
 
 .Aboutgame{
 	 left:100%;
