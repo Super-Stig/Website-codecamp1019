@@ -187,8 +187,8 @@
 
 /* Number text (1/3 etc) */
 .numbertext {
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
