@@ -358,6 +358,19 @@ body{
 	 width: 100%;
 }
 
+.store h1{
+	text-align: center;
+}
+
+.store #gameboxrenders{
+	width:68%; 
+	margin-top:5%;
+	margin-left:17%;
+	background-color: hotpink;
+	height:10%;
+}
+
+
 .credits{
 
 	 left:200%;
