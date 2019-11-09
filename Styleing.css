@@ -268,8 +268,9 @@ body{
 	text-align: left;
 	color: #ffffff;
 	font-family: 'Cormorant Unicase', serif;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll
+    ;
     text-decoration: none;
 }
 
