@@ -303,6 +303,7 @@ body{
 .nav li a {
 	display: block;
 	text-decoration-color: white;
+	text-decoration: none;
 	
 }
 
@@ -311,8 +312,12 @@ body{
   color: white;
 }
 
-
-
+#loading{
+	z-index: 100;
+	position: fixed;
+	display: block;
+	width:100%;
+}
 /* Main Divs */
 
 
