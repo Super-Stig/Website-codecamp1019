@@ -218,17 +218,15 @@
 	list-style-type: none;
 }
  
-.alignSlideshowsTitlesInGallery{
+.TitlesInGallery{
 
 	min-width: 100%;
 	min-height: 2.5%;
-	max-height: 2.5%;
 	position: relative;
-	left: 0%;
+	left: 15%;
 	top: 3%;
 
 	text-align: center;
-	font-family: Arial, sans-serif;
 }
 
 
