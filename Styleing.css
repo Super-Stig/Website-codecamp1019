@@ -308,9 +308,9 @@ body{
 
 .nav li a {
 	display: block;
-	text-decoration-color: white;
+	color:white;
 	text-decoration: none;
-	
+	text-align: center;
 }
 
 .nav li a:hover {
