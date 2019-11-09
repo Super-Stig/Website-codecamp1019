@@ -112,14 +112,14 @@
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container1 {
+/*.slideshow-container1 {
   min-width: 25%;
   max-width: 75%;
   min-height: 20%;
   position: relative;
   left: 17%;
   margin: 5% 0% 0% -3.5%;
-}
+}*/
 
 .slideshow-container2 {
   min-width: 80%;
@@ -130,14 +130,14 @@
   margin: 5% 0% 0% -3.5%;
 }
 
-.slideshow-container3 {
+/*.slideshow-container3 {
   min-width: 25%;
   max-width: 75%;
   min-height: 20%;
   position: relative;
   left: 17%;
   margin: 5% 0% 0% -3.5%;
-}
+}*/
 
 /* Hide the images by default */
 .mySlides {
