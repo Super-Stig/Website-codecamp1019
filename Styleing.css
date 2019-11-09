@@ -115,9 +115,13 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  min-width: 25%;
+  max-width: 75%;
+  min-height: 25%;
   position: relative;
-  margin: auto;
+  left: 15%;
+  margin: 5% 0% 0% 0%;
+  background-color: hotpink;
 }
 
 /* Hide the images by default */
@@ -170,6 +174,7 @@
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  text-align: center;
 }
 
 /* The dots/bullets/indicators */
@@ -211,6 +216,19 @@
 
 #unbulletPointify{
 	list-style-type: none;
+}
+ 
+.alignSlideshowsTitlesInGallery{
+
+	min-width: 100%;
+	min-height: 2.5%;
+	max-height: 2.5%;
+	position: relative;
+	left: 0%;
+	top: 3%;
+
+	text-align: center;
+	font-family: Arial, sans-serif;
 }
 
 
